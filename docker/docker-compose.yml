@@ -26,6 +26,7 @@ services:
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=polardb_catalog
+
   config-service:
     image: "config-service"
     container_name: "config-service"
